@@ -20,22 +20,22 @@ body {
 
 input{
     padding: 4px 15px 4px 0;
-    
+
 }
 
 #button{
-display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
-border-radius: 5px;
-text-align:center;
-margin-top:2px;
-padding: 5px 15px;
+    display: inline-block;
+    background-color:#fc999b;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    padding: 5px 15px;
 }
 
 #button:hover{
-cursor: pointer;
-opacity: .8;
+    cursor: pointer;
+    opacity: .8;
 }
 
 ol {
@@ -51,15 +51,15 @@ ol li:nth-child(even){
 }
 
 li:hover{
-  cursor: pointer;
- }
+    cursor: pointer;
+}
 
- #filters{
-     text-align: center;
-     margin-bottom: -10px;
-     margin-top: 40px;
- 
- }
+#filters{
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 40px;
+
+}
 
 #filters li a {
     color: #fc999b;
@@ -78,19 +78,19 @@ li:hover{
 }
 
 #filters li {
-	display: inline;
-	margin: 0 0 5px 0;
-	padding: 8px;
-	list-style: none;
+    display: inline;
+    margin: 0 0 5px 0;
+    padding: 8px;
+    list-style: none;
     outline: none;
- }
+}
 
 .checked {
     color: #999;
     text-decoration: line-through;
 }
 
-input[type=checkbox].done-todo { 
-	
-    margin: 5px 5px 2px 0; 
+input[type=checkbox].done-todo {
+
+    margin: 5px 5px 2px 0;
 }
