@@ -43,7 +43,7 @@ $(document)
         })
 
         $("ol li").click(function(){
-            $(this).attr("contentEditable",true);
+            $("span").attr("contentEditable",true);
 
         })
 
